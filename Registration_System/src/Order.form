@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Order">
+  <grid id="27dc6" binding="orderPanal" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="2" y="3" width="1102" height="551"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f8d9f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15508480"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5faef" class="javax.swing.JLabel" binding="ordersLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16730612"/>
+              <font name="French Script MT" size="72" style="1"/>
+              <foreground color="-1"/>
+              <text value="Orders"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="26377" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4da59" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="imag9.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2a296" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="20c88" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="imag9.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9a173" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1048588"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="c3307" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b79dd" class="javax.swing.JButton" binding="returnButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Forte" size="14" style="0"/>
+              <foreground color="-1"/>
+              <text value="Return"/>
+            </properties>
+          </component>
+          <scrollpane id="280fc">
+            <constraints>
+              <grid row="5" column="3" row-span="5" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="line" title="Order Details" title-justification="2">
+              <title-color color="-15296256"/>
+              <color color="-15508480"/>
+            </border>
+            <children>
+              <component id="8942e" class="javax.swing.JTable" binding="Order_table">
+                <constraints/>
+                <properties>
+                  <gridColor color="-1"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="818f1">
+            <constraints>
+              <grid row="0" column="3" row-span="5" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="line" title="Product Details" title-justification="2">
+              <font/>
+              <title-color color="-15296256"/>
+              <color color="-15508480"/>
+            </border>
+            <children>
+              <component id="fe4f4" class="javax.swing.JTable" binding="Product_table">
+                <constraints/>
+                <properties>
+                  <gridColor color="-1"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="72972" class="javax.swing.JLabel" binding="orderIdLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="165" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="e5799"/>
+              <text value="Order id"/>
+            </properties>
+          </component>
+          <component id="e5799" class="javax.swing.JTextField" binding="orderIdTextField" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="6f43b" class="javax.swing.JLabel" binding="customerIdLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="165" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="8080e"/>
+              <text value="Customer id"/>
+            </properties>
+          </component>
+          <component id="5fbd4" class="javax.swing.JLabel" binding="productNameLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="4e06"/>
+              <text value="Product name"/>
+            </properties>
+          </component>
+          <component id="58277" class="javax.swing.JLabel" binding="quantityLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="ed858"/>
+              <text value="Quantity"/>
+            </properties>
+          </component>
+          <component id="a4a05" class="javax.swing.JLabel" binding="priceLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="a6ebd"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="acad2" class="javax.swing.JLabel" binding="orderDateLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="165" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="14c67"/>
+              <text value="Order date"/>
+            </properties>
+          </component>
+          <component id="c90c8" class="javax.swing.JLabel" binding="dueDateLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="165" height="21"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <labelFor value="eab99"/>
+              <text value="Due Date"/>
+            </properties>
+          </component>
+          <component id="8d093" class="javax.swing.JLabel" binding="statusLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="14" style="1"/>
+              <foreground color="-15372032"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <labelFor value="3762a"/>
+              <text value="Status"/>
+            </properties>
+          </component>
+          <component id="8080e" class="javax.swing.JTextField" binding="customerIdTextField" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4e06" class="javax.swing.JTextField" binding="productNameTextField" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ed858" class="javax.swing.JTextField" binding="quantityTextField" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a6ebd" class="javax.swing.JTextField" binding="priceTextField" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="14c67" class="javax.swing.JTextField" binding="orderDateTextField" default-binding="true">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="eab99" class="javax.swing.JTextField" binding="dueDateTextField" default-binding="true">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3762a" class="javax.swing.JTextField" binding="statusTextField" default-binding="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="NOT DONE"/>
+            </properties>
+          </component>
+          <component id="a9ceb" class="javax.swing.JComboBox" binding="Products_box">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2724864"/>
+              <font name="Book Antiqua" size="14" style="0"/>
+              <foreground color="-1"/>
+              <model/>
+              <toolTipText value="-Select Product"/>
+            </properties>
+          </component>
+          <component id="8beb0" class="javax.swing.JButton" binding="goToCustomersButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2724864"/>
+              <focusable value="false"/>
+              <font name="Kristen ITC" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Go to Customers"/>
+            </properties>
+          </component>
+          <component id="f2703" class="javax.swing.JButton" binding="editOrderButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10028"/>
+              <font name="Forte" size="14" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Edit Order"/>
+            </properties>
+          </component>
+          <component id="c4d54" class="javax.swing.JButton" binding="deleteOrderButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10028"/>
+              <font name="Forte" size="14" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Delete Order"/>
+            </properties>
+          </component>
+          <component id="8b2e0" class="javax.swing.JButton" binding="generateBillButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3665904"/>
+              <focusable value="false"/>
+              <font name="Old English Text MT" size="14" style="1"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <text value="Generate Bill"/>
+            </properties>
+          </component>
+          <component id="f1281" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="6" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="165" height="24"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-10028"/>
+              <font name="Forte" size="14" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Search"/>
+            </properties>
+          </component>
+          <component id="a7aaa" class="javax.swing.JTextField" binding="searchField">
+            <constraints>
+              <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="10"/>
+              <text value=""/>
+              <toolTipText value="Search For Orde"/>
+            </properties>
+          </component>
+          <component id="13817" class="javax.swing.JButton" binding="addOrderButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10028"/>
+              <font name="Forte" size="14" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Add Order"/>
+            </properties>
+          </component>
+          <component id="29938" class="javax.swing.JButton" binding="refreshButton" default-binding="true">
+            <constraints>
+              <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10028"/>
+              <focusable value="false"/>
+              <font name="Bauhaus 93" size="14" style="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Refresh"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="98b02" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1048588"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
