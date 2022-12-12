@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/drawable/input_bg_1.xml" value="0.1255" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/activity_information.xml" value="0.16417272338606242" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/activity_login.xml" value="0.16417272338606242" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/activity_register.xml" value="0.16417272338606242" />
+        <entry key="..\:/My Projects/ProjectM/app/src/main/res/layout/fragment_ayurvedic.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/btn_bg.xml" value="0.153" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/btn_bg1.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/btn_bg_1.xml" value="0.1255" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/covid_care_btn.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/diseasebtn.xml" value="0.16" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/home_layout_color.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/home_layout_topcorner_cut.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_consaltation.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_consultaion_icone.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_covidcare.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_depression.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_doctor_white_coat.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_email.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_eye.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_facebook.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_fever.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_google.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_hairfall.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_headache.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_home.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_hospital.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_illness.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_medicines_icon.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_menu.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_notifications.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_person.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_person_1.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_person_2.xml" value="0.1255" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_reports.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_security.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_skin-disorder_background.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_skin_disorders.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_sneezing.xml" value="0.147" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_stomach_ache.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/ic_watering_in_eye.xml" value="0.141" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/icperson.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/input_bg.xml" value="0.153" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/input_bg_1.xml" value="0.1255" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/layout_color_2.xml" value="0.1255" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/drawable/profile_layout_color.xml" value="0.1255" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_description.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_doctors.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_home.xml" value="0.20125786163522014" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_hospital.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_hospitals.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_list_view.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_medicine.xml" value="0.18445539135194308" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_medicine_description.xml" value="0.22" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_sub_doctors.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_sub_doctors_acticity.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_sub_hospital.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_sub_medicine.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_trail_doctors_acticity.xml" value="0.1" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/activity_trail_sub_doctors.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/allopathy_medicine_fragment.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/ayurvedic_medicine.xml" value="0.14322359982898675" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/ayurvedic_medicine_fragment.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/description.xml" value="0.14322359982898675" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/description_row.xml" value="0.22" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/doctors_row.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_allopathic.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_ayurvedic.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_description.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_doctors.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_homeopathic.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_hospital.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_hospitals.xml" value="0.13253527148353997" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/fragment_trail_doctors.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/homeopathy_medicine_frament.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/hospitals_row.xml" value="0.14322359982898675" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/medicine_row.xml" value="0.14407866609662248" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/menu_header.xml" value="0.1633176571184267" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/row.xml" value="0.22" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/layout/side_menu.xml" value="0.1" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/menu/side_menu.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/mipmap-anydpi-v26/ic_skin-disorder.xml" value="0.162" />
+        <entry key="..\:/Users/darsh/Desktop/ProjectM/app/src/main/res/mipmap-anydpi-v26/ic_skin-disorder_round.xml" value="0.162" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14666666666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

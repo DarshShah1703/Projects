@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="30dp"
+    tools:context=".InformationActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Give Some More Information.."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroupCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#341B479E">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Your Category"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+                <RadioButton
+                    android:id="@+id/radioPatient"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Patient"
+                    android:checked="false"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioDoctor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Doctor"
+                    android:checked="false"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:textColor="#FF1B479E"
+                android:textColorHint="#FF1B479E"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/input_bg_1"
+                android:drawableLeft="@drawable/ic_person_2"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
+            <EditText
+                android:id="@+id/editTextBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birth Date"
+                android:textColor="#FF1B479E"
+                android:textColorHint="#FF1B479E"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/input_bg_1"
+                android:drawableLeft="@drawable/ic_person_2"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
+            <RadioGroup
+                android:id="@+id/radioGroupGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#341B479E">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Your Gender"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Male"
+                    android:checked="false"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Female"
+                    android:checked="false"
+                    android:textColor="#FF1B479E"
+                    android:textColorHint="#FF1B479E"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="#FF1B479E"
+                android:textColorHint="#FF1B479E"
+                android:textSize="20dp"
+                android:background="@drawable/input_bg_1"
+                android:drawableLeft="@drawable/ic_person_2"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp" />
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg_1"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                style="?android:progressBarStyleInverse"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
