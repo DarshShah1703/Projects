@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#01172E</item>
+    </style>
+    <style name="cornerCut">
+        <item name="cornerSize">30%</item>
+    </style>
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="cornerCut_1">
+        <item name="cornerSize">20%</item>
+    </style>
+</resources>
